@@ -7,3 +7,12 @@ You can also export your result as a text file.
 To open the application, run the "align_GUI.py" script.
 
 The global alignment is base on the Needleman–Wunsch algorithm. I recommand using it with sequence < to 600pb, because the algorithm has not been optimized and it would take to much time to process.
+
+
+# Installation
+before running the application, you have to install `python-tk` and `numpy`
+
+```sh
+apt-get install python-tk
+pip install numpy
+```
